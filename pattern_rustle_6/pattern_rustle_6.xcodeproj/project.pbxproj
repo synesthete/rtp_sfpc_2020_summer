@@ -9,6 +9,138 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>D4DDC483DAD2C0353077AF28</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxVectorGraphics.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3801B04C72ADFE74ED284693</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>318ABED90EADFB757FFDCCAF</string>
+					<string>D4DDC483DAD2C0353077AF28</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>603044E656EA8D499FCF7DEA</key>
+			<dict>
+				<key>fileRef</key>
+				<string>318ABED90EADFB757FFDCCAF</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>318ABED90EADFB757FFDCCAF</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxVectorGraphics.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>11D7A477920A2054FD49C2D2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>CreEPS_Types.hpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxVectorGraphics/libs/CreEPS_Types.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A852AD3A75FDFD790A24855A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>CreEPS.hpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxVectorGraphics/libs/CreEPS.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0F437E4761003E66B16524BE</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>34BF591C646B5F6EF968D620</string>
+					<string>A852AD3A75FDFD790A24855A</string>
+					<string>11D7A477920A2054FD49C2D2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>916B8DF9E7519F5BB8A2990B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0F437E4761003E66B16524BE</string>
+					<string>3801B04C72ADFE74ED284693</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxVectorGraphics</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>F01092BB147FA462845C38C7</key>
+			<dict>
+				<key>fileRef</key>
+				<string>34BF591C646B5F6EF968D620</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>34BF591C646B5F6EF968D620</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>CreEPS.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxVectorGraphics/libs/CreEPS.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -179,6 +311,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -221,6 +356,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -255,7 +393,9 @@ fi
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
-				<array />
+				<array>
+					<string>916B8DF9E7519F5BB8A2990B</string>
+				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
@@ -3020,6 +3160,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -3082,6 +3225,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -3108,6 +3254,8 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>F01092BB147FA462845C38C7</string>
+					<string>603044E656EA8D499FCF7DEA</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -3207,6 +3355,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -3258,6 +3409,9 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
+						<string>../../../addons/ofxVectorGraphics/libs</string>
+						<string>../../../addons/ofxVectorGraphics/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>

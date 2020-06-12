@@ -1,5 +1,6 @@
 #pragma once
 
+//#include "ofxVectorGraphics.h"
 #include "ofMain.h"
 
 class ofApp : public ofBaseApp{
@@ -24,10 +25,14 @@ class ofApp : public ofBaseApp{
         string appname;
         float offsetX;
         float offsetY;
-        int x1;
-        int y1;
-        int x2;
-        int y2;
-        int x3;
-        int y3;
+        float x1;
+        float y1;
+        float x2;
+        float y2;
+        float x3;
+        float y3;
+        //ofxVectorGraphics output;
+        //vector<ofPolyline> output;
+        ofPath output;
+        ofVboMesh tessellation;
 };

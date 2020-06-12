@@ -2,10 +2,11 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofBackground(255);
-    ofSetColor(0);
+    ofBackground(238, 240, 239);
+    ofSetColor(48, 48, 50);
     // get name of app for naming screenshots
     appname = ofFilePath::getBaseName(ofFilePath::getCurrentExePath());
+    //output.setMode(ofPath::POLYLINES);
 }
 
 //--------------------------------------------------------------
@@ -15,6 +16,30 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+//    x1 = 0;
+//    y1 = 0;
+//    x2 = 63;
+//    y2 = 0;
+//    x3 = 31;
+//    y3 = 55;
+//    output.clear();
+//    output.newSubPath();
+//        output.moveTo(x1,y1);
+//        output.lineTo(x2,y2);
+//        output.setCurveResolution(1000);
+//        output.moveTo(x2,y2);
+//        output.curveTo(x2 - 22,y2 + 21);
+//        output.curveTo(x3,y3);
+//        output.moveTo(x3,y3);
+////        output.lineTo(x3,y3);
+//        output.lineTo(x1,y1);
+//    output.close();
+//    output.setFillColor(0x00000);
+//    output.setFilled(true);
+//    tessellation = output.getTessellation();
+//    tessellation.drawWireframe();
+    
+    ofSeedRandom(23);
     // set margin on left and top
     ofTranslate(24, 24, 0);
     // first iteration gets no additional horizontal offset
@@ -69,11 +94,43 @@ void ofApp::draw(){
             // don't draw last triangle for even rows
             if ( !(i % 2 == 0 && j == 13) ) {
                 // move to our offset position, then scale and draw triangle
+                
                 ofPushMatrix();
                     ofTranslate(offsetX, offsetY, 0);
-                    ofBeginShape();
-                        ofDrawTriangle(x1, y1, x2, y2, x3, y3);
-                    ofEndShape();
+//                        output.clear();
+//                        output.newSubPath();
+//                            output.moveTo(x1,y1);
+//                            output.lineTo(x2,y2);
+//                            output.lineTo(x3,y3);
+//                            output.lineTo(x1,y1);
+//                        output.close();
+//                        output.setFillColor(0x00000);
+//                        output.setFilled(true);
+//                        output.draw();
+                
+                output.clear();
+                output.newSubPath();
+                    output.moveTo(x1,y1);
+                    output.lineTo(x2,y2);
+                    if ( (ofRandom(1.0) < 0.15) && (i > 0 && i < 13) && ( j < 13 )) {
+                        //if ( j < 13 ) {
+                            output.moveTo(x1,y1);
+                            output.setCircleResolution(1000);
+                            if ( i % 2 != 0 && j == 0) {
+                                x1 = -31;
+                            }
+                            output.arc(x1,y1,63,63,0,60);
+                            //output.arc(50,94,63,63,180,60);
+                            x1 = 0;
+                        //}
+                    } else {
+                        output.lineTo(x3,y3);
+                    }
+                    output.lineTo(x1,y1);
+                output.close();
+                output.setFillColor(0x00000);
+                output.setFilled(true);
+                output.draw();
                 ofPopMatrix();
             }
         }
