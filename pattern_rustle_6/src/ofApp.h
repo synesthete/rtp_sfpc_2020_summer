@@ -25,14 +25,5 @@ class ofApp : public ofBaseApp{
         string appname;
         float offsetX;
         float offsetY;
-        float x1;
-        float y1;
-        float x2;
-        float y2;
-        float x3;
-        float y3;
-        //ofxVectorGraphics output;
-        //vector<ofPolyline> output;
-        ofPath output;
-        ofVboMesh tessellation;
+        
 };
