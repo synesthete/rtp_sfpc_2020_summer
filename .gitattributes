@@ -1,2 +1,2 @@
 Makefile linguist-detectable=false
-*.cpp linguist-detectable=true
+*.make linguist-detectable=false
