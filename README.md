@@ -6,9 +6,9 @@
 
 | Original |
 | --- |
-| ![Vera Molnár - Structure de Quadrilateres - 1987](01%20-%20Vera%20Molnár/MOLNAR-1987_Structure-de-Quadrilate-res-Square-Structures_VM1646.jpg) |
+| ![Vera Molnár - Structure de Quadrilateres - 1987](01%20-%20Vera%20Moln%E1r/MOLNAR-1987_Structure-de-Quadrilate-res-Square-Structures_VM1646.jpg) |
 | Recreation |
-| ![Recreation of Structure de Quadrilateres](01%20-%20Vera%20Molnár/Structure%20de%20Quadrilate_2020-07-02-20-02-53-659.png) |
+| ![Recreation of Structure de Quadrilateres](01%20-%20Vera%20Moln%E1r/Structure%20de%20Quadrilate_2020-07-02-20-02-53-659.png) |
 
 ## Week 2: John Whitney
 
