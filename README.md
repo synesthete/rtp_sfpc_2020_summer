@@ -48,7 +48,7 @@ Instructor - [Zach Lieberman](https://sfpc.io/people/zach-lieberman/)
 
 | Original |
 | --- |
-| ![Ken Knowlton - Figure 8. - 1970](05%20-%20Lillian%20Schwartz%20and%20Ken%20Knowlton/fig_7.png) |
+| ![Ken Knowlton - Figure 8. - 1970](05%20-%20Lillian%20Schwartz%20and%20Ken%20Knowlton/fig_8.png) |
 | Recreation |
 | ![Recreation of Knowlton - Figure 8. - 1970](05%20-%20Lillian%20Schwartz%20and%20Ken%20Knowlton/pixels_explor_uaide_1970_fig_8_2020-06-29-09-39-49-671.png) |
 
@@ -56,8 +56,8 @@ Instructor - [Zach Lieberman](https://sfpc.io/people/zach-lieberman/)
 
 ### Webring of fellow students
 
-[Norm](https://www.are.na/norman-o-hagan/recreating-the-past-shenanigans-summer-2020)
-[Deniz](https://github.com/DenizBicer/RTP)
-[Lynn](https://github.com/lynnhu/RecreatingThePast_SFPC)
-[Lisa](https://github.com/lisajamhoury/sfpc_rtp_hw)
-[Edgardo](https://github.com/eaviles/sfpc-2020-rtp)
+- [Norm](https://www.are.na/norman-o-hagan/recreating-the-past-shenanigans-summer-2020)
+- [Deniz](https://github.com/DenizBicer/RTP)
+- [Lynn](https://github.com/lynnhu/RecreatingThePast_SFPC)
+- [Lisa](https://github.com/lisajamhoury/sfpc_rtp_hw)
+- [Edgardo](https://github.com/eaviles/sfpc-2020-rtp)
